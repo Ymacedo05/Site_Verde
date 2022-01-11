@@ -1,0 +1,206 @@
+:root{
+    --cor1:#C4DF9B;
+    --cordivs: #c4df9b63;
+    --corTitulos:#526b52;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+#container{
+
+    margin: auto;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--cor1);
+    color: black;
+
+    padding: 20px 50px; 
+    
+}
+/*==============  LOGO ========================*/
+header div{
+
+    font-size: 1.8em;
+    font-weight: bolder;
+    border-top: 2px solid rgba(0, 128, 0, 0.63);
+    border-bottom: 0.5px solid rgba(0, 128, 0, 0.63);
+    padding: 3px;
+    width: 200px;
+}
+header div span{
+    color: rgba(0, 128, 0, 0.63);
+}
+/*==============  LOGO ========================*/
+header ul{
+    display: flex;
+}
+header ul a{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+
+    font-size: 1.5em;
+    color: black;
+
+}
+header a:hover{
+    background-color: #d3eeac;
+    color: white;
+    border-top: 1px solid white;
+
+}
+
+/*==================== Inicio Menu================*/
+
+main{
+    width: 1100px;
+    margin: auto;
+    box-shadow: 0px 0px 20px lightgray;
+    
+    
+}
+div#p1{
+
+    border: 1px solid white;
+    background: white url("imagens/mato2.png") no-repeat left bottom;
+    text-align: center;
+    
+}
+div#p1 div#sub{
+    padding: 170px 0px 250px 0px;
+}
+div#p1 h1{
+    color:#526b52;
+    font-size: 3em;
+}
+div#p1 h2{
+    color:rgba(0, 128, 0, 0.63);
+}
+ 
+/*---------------------------------------------*/
+div#p1 #retangulo{
+    background-color: #c4df9b63 ;
+    width: 400px;
+    margin: 0px auto 100px auto;
+    height: 100px;
+    padding: 150px 20px 150px 400px;
+}
+div#p1 #retangulo h2{
+    color: #526b52;
+    text-align: left;
+}
+div#p1 #retangulo p {
+    text-align: justify;
+    padding-top: 20px;
+    
+}
+/*--------------------P2------------------------*/
+
+div#p2 {
+
+    width: 819px;
+    margin: 30px auto 15px auto;
+
+}
+
+div#p2 h2{
+    color:var(--corTitulos);
+    text-align: center;
+    padding: 12px;
+    
+}
+div#p2 div#cobertura_boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+div#p2 .box_maior {
+    
+}
+div#p2 .box_maior p{
+    padding: 10px;
+    text-align: center;
+}
+div#p2 .box{
+
+    width: 250px;
+    height: 250px;
+    background-color: var(--cor1);
+
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 382px;
+    color: var(--corTitulos);
+}
+/*------------------- P3------------------------*/
+div#p3{
+
+    width: 999px;
+    height: 470px;
+    margin: 40px auto 0px auto;
+    padding-bottom: 22px;
+
+    background: url("imagens/pngegg.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+div#p3 #p3_conteudo{
+    background-color: var(--cordivs);
+    width: 815px;
+    height: 470px;
+    margin: 20px auto 0px auto;
+
+    display: flex;
+}
+
+div#p3 #p3_conteudo #esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:515px ;
+    line-height: ;
+}
+div#p3 #p3_conteudo #esquerda img{
+    width: 70%;
+    margin: left;
+    padding-left: 30px;
+
+    
+}
+#esquerda h2{
+    padding: 20px 30px 0px ;
+    color: var(--corTitulos);
+}
+#esquerda p{
+    padding: 20px 30px ;
+}
+
+div#p3 #p3_conteudo #direita{
+    width:300px ;
+    
+}
+
+/* Fim Menu*/
+
+footer{
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 20px;
+    
+    
+}
+footer h3{
+    padding: 5px;
+}
